@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://www.mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 配置全局变量 -->
+	<settings>
+		<!-- 开启驼峰命名转换 Table:create_tiem到pojo(createTime)-->
+		<!-- 数据库中的属性名自定映射到pojo实体类的属性名 -->
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+	</settings>
+</configuration>
